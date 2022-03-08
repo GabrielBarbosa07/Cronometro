@@ -1,0 +1,84 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+body{
+    background-image: url(iii.jpg);
+    background-position: cover;
+}
+header{
+    padding: 20px;
+}
+header>h1{
+    color: rgb(112, 50, 50);
+    text-align: center;
+    font-size: 3.4em;
+    font-family: 'Syne Mono', monospace;
+}
+main{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+}
+@media (max-width:600px){
+    .box{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .conteiner{
+        margin: auto;
+    }
+    p{
+        width: 95vw;
+    }
+    span{
+        margin: auto;
+        text-align: center;
+    }
+}
+.conteiner{
+    padding: 0px;
+    width: 600px;
+    margin: auto;
+}
+p{
+    color: white;
+    font-size: 4em;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 15px auto;
+}
+#btnIniciar{
+    padding: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+#btnIniciar:hover{
+    cursor: pointer;
+    color: rgb(172, 168, 168);
+}
+#btnZerar{
+    padding: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    display: none;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
+#btnZerar:hover{
+    cursor: pointer;
+    color: rgb(172, 168, 168);
+}
